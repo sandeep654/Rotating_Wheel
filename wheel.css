@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: #ee9191;
+}
+
+h1,h3{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 10px auto;
+    text-decoration: dotted;
+    color: rgb(92, 34, 207);
+}
+
+h3{
+    color: rgb(145, 33, 85);
+}
+
+
+
+#wheel{
+
+    margin:90px 530px;
+    width: 135px;
+    height: 135px;
+    border-style: solid;
+    border-width: 45px 45px;
+    border-color: rgb(182, 3, 3) rgb(14, 191, 14) rgb(194, 194, 22) rgb(225, 25, 225);
+    border-radius: 55%;
+    transition: all 5s ease-in-out;
+}
+
+#wheel:hover{
+    transform: rotate(1080deg);
+    
+}
